@@ -1,8 +1,10 @@
+// функция очистки первых двух полей
 document.getElementById('delet_user_cange').onclick = function() {
     document.getElementById('name').value = '';
     document.getElementById('fam').value = '';
 };
 
+// функция очистки третьего и четвёртого полей
 document.getElementById('delet_log').onclick = function() {
     document.getElementById('log').value = '';
     document.getElementById('log_yes').value = '';
