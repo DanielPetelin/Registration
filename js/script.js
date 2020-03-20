@@ -3,6 +3,11 @@ document.getElementById('delet_user_cange').onclick = function() {
     document.getElementById('fam').value = '';
 };
 
+document.getElementById('delet_log').onclick = function() {
+    document.getElementById('log').value = '';
+    document.getElementById('log_yes').value = '';
+};
+
 document.getElementById('go').onclick = function() {
     var username = document.getElementById('name').value;
     var fam = document.getElementById('fam').value;
